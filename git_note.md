@@ -12,7 +12,7 @@
     git add file
     git commit -m "make some note"
 ### 6. push to the remote branch
-    git push 
+    git push orign branch_name
 ### 7. merge to the master if you want
     git merge branch_name
 ### 8. if need to delete branch
