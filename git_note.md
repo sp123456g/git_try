@@ -20,4 +20,6 @@
 ### 9.if the branch didn't be merged yet: use -D to force delete
     git branch -D branch_name
 ### 10. delete branch in remote branch
-    git branch origin:branch_name
+    git branch origin :branch_name
+### 11. rename the branch in the remote branch
+    git branch origin branch_name:remote_branch_name
