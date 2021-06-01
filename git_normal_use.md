@@ -24,3 +24,5 @@
     git show version_ID
 ## show log in pretty graph
     git log --all --decorate --oneline --graph (alias as git dog)
+### alias the command in .gitconfig
+    add [alias] list to the .gitconfig in ~/
