@@ -26,3 +26,5 @@
 ### 12. rebase: take the last commit of the target branch to the current branch
     git checkout editting_branch_name
     git rebase target_branch 
+### 13. merge with branch note: use no fast-forward
+    git merge branch_name --no-ff
