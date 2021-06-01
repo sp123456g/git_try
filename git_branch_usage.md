@@ -23,3 +23,6 @@
     git branch origin :branch_name
 ### 11. rename the branch in the remote branch
     git branch origin branch_name:remote_branch_name
+### 12. rebase: take the last commit of the target branch to the current branch
+    git checkout editting_branch_name
+    git rebase target_branch 
