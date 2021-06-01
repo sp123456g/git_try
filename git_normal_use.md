@@ -18,3 +18,9 @@
     git checkout deleted_file
 ### If the file already add and want to cancel add action
     git reset file_want_to_unadd
+### show log in short term
+    git log --oneline
+### only see the specific version 
+    git show version_ID
+## show log in pretty graph
+    git log --all --decorate --oneline --graph (alias as git dog)
